@@ -2,7 +2,6 @@ import io
 import json
 import logging
 import oci
-
 from fdk import response
 
 def handler(ctx, data: io.BytesIO = None):
